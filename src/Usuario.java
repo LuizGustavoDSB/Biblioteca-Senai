@@ -1,11 +1,26 @@
 public class Usuario {
 
-    String nome;
-    String cpf;
+    private String nome;
+    private String cpf;
 
-    //public void alocarLivro(Livro livro){
-    // livro.emprestado = true;
-    //  this.livro = livro;
-    //}
+    public Usuario(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
 }
